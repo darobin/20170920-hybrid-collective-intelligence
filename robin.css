@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: 'Doves Type';
+  src: url('fonts/DovesType-Regular.eot');
+  src: url('fonts/DovesType-Regular.eot') format('embedded-opentype'),
+    url('fonts/DovesType-Regular.woff2') format('woff2'),
+    url('fonts/DovesType-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* override font */
+body .shower,
+body section,
+body .caption h1,
+body .slide h2
+{
+  font-family: "Doves Type", Georgia, serif;
+  font-weight: normal;
+}
+
+/* override bg */
+.slide {
+  background: #eaf0e8;
+  color: #2b2e34;
+}
