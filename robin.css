@@ -24,19 +24,32 @@
 */
 
 /* font */
-body .shower,
-body section,
-body .caption h1,
-body .slide h2
+.shower,
+section,
+.caption h1,
+.slide h2
 {
   font-family: var(--font);
   font-weight: normal;
+}
+p, li {
+  font-size: 30px;
+  line-height: 1.6;
 }
 
 /* bg */
 .slide {
   background: var(--bg);
   color: var(--fg);
+}
+
+/* colours */
+.slide h2,
+.slide ul li::before,
+.slide ol li::before,
+.slide p.note
+{
+  color: var(--lighter);
 }
 
 /* ribbon */
@@ -47,4 +60,19 @@ body .slide::after {
 /* accent */
 .slide a {
   color: var(--accent);
+  text-decoration: none;
+  background: linear-gradient(to top, var(--bg) 5px, var(--accent) 5px, var(--accent) 7px, var(--bg) 7px);
+  text-shadow: 1px 1px 0 var(--bg), -1px 1px 0 var(--bg);
+}
+
+/* progress */
+.progress {
+  border-color: var(--accent);
+  border-right-color: transparent;
+}
+
+/* misc */
+cite {
+  background: linear-gradient(to top, var(--bg) 5px, var(--accent) 5px, var(--accent) 7px, var(--bg) 7px);
+  text-shadow: 1px 1px 0 var(--bg), -1px 1px 0 var(--bg);
 }

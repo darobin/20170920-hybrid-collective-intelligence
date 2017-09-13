@@ -6,9 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
     <link rel="stylesheet" href="robin.css">
+    <style>
+      #cover img {
+        left: auto;
+        right: -32%;
+      }
+      #cover h2 {
+        margin: 0 -10px 0 -72px;
+        padding-bottom: 20px;
+        font-size: 5rem;
+        color: var(--accent);
+        width: 40%;
+        text-align: right;
+        border-bottom: 10px solid var(--lighter);
+      }
+      #cover p {
+        margin: -10px 0 0 -72px;
+        width: 40%;
+        text-align: right;
+      }
+      #cover p a {
+        text-decoration: none;
+        background: none;
+        color: var(--fg);
+        font-size: 3rem;
+      }
+      #cover figcaption {
+        right: -4px;
+      }
+      #cover figcaption a {
+        text-decoration: none;
+        background: none;
+      }
+    </style>
   </head>
   <body class="shower list">
-
     <header class="caption">
       <h1>25 Years of Hybrid Collective Intelligence</h1>
       <p>Robin Berjon</p>
@@ -21,43 +53,43 @@
         <img class="cover" src="pictures/manticore.jpg" alt="Manticore">
         <figcaption class="white">
           <a href="https://en.wikipedia.org/wiki/File:Manticore_-_British_Library_Royal_12_F_xiii_f24v_(detail).jpg">Manticore / Rochester Bestiary</a>
-          <!-- <a href="http://gallica.bnf.fr/ark:/12148/btv1b8591658c/f1.item.r=chim%C3%A8re">Gallica / BnF</a> -->
-          <!-- <a href="http://metmuseum.org/art/collection/search/208480?sortBy=Relevance&amp;ao=on&amp;ft=chimera&amp;offset=0&amp;rpp=100&amp;pos=15">The Met</a> -->
         </figcaption>
       </figure>
-      <style>
-        #cover img {
-          left: auto;
-          right: -32%;
-        }
-        #cover h2 {
-          margin: 0 -10px 0 -72px;
-          padding-bottom: 20px;
-          font-size: 5rem;
-          color: var(--accent);
-          width: 40%;
-          text-align: right;
-          border-bottom: 10px solid var(--lighter);
-        }
-        #cover p {
-          margin: -10px 0 0 -72px;
-          width: 40%;
-          text-align: right;
-        }
-        #cover p a {
-          text-decoration: none;
-          background: none;
-          color: var(--fg);
-          font-size: 3rem;
-        }
-        #cover figcaption {
-          right: -4px;
-        }
-        #cover figcaption a {
-          text-decoration: none;
-          background: none;
-        }
-      </style>
+    </section>
+
+    <section class="slide">
+      <h2>Previously on “The Web”</h2>
+      <ul>
+        <li>1989: Tim Berners-Lee, “<cite>Information Management: A Proposal</cite>”</li>
+        <li>1990: First web site &amp; “WorldWideWeb” browser</li>
+        <li>1993: Web is 1% of internet (NSF) traffic</li>
+        <!-- <li>1994: World Wide Web Consortium (W3C) established at MIT for stewardship</li> -->
+        <li>1995: <a href="">JavaScript</a> makes it programmable</li>
+        <li>1996: <a href="">CSS</a> makes it styleable</li>
+        <!-- <li>2004: WHATWG established</li> -->
+        <li>2011: <a href="http://schema.org/">schema.org</a> launches</li>
+        <!-- <li>2014: HTML5</li> -->
+        <li>Still growing…</li>
+      </ul>
+      <p class="note">
+        You should watch <a href="http://www.foreveryone.net/">For Everyone</a>
+        (<a href="http://www.foreveryone.net/">http://www.foreveryone.net/</a>).
+      </p>
+      <!--
+        planetary scale
+        civilisational duration
+      -->
+    </section>
+
+
+    <section class="slide">
+      <h2>Vague but exciting…</h2>
+      <figure>
+        <img class="cover" src="pictures/manticore.jpg" alt="Manticore">
+        <figcaption class="white">
+          <a href="https://en.wikipedia.org/wiki/File:Manticore_-_British_Library_Royal_12_F_xiii_f24v_(detail).jpg">Manticore / Rochester Bestiary</a>
+        </figcaption>
+      </figure>
     </section>
 
     <section class="slide">
@@ -209,12 +241,7 @@
       </style>
     </section>
 
-    <footer class="badge">
-      <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer>
-
     <div class="progress"></div>
-
     <script src="node_modules/shower-core/shower.min.js"></script>
   </body>
 </html>
