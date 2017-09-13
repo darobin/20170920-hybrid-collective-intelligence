@@ -9,18 +9,42 @@
   font-style: normal;
 }
 
-/* override font */
+:root {
+  --bg:       hsl(105, 21%, 100%);
+  --fg:       hsl(220, 9%, 19%);
+  --lighter:  hsl(220, 9%, 50%);
+  --accent:   hsl(9, 96%, 44%);
+  --font:     "Doves Type", Georgia, serif;
+}
+
+/*
+  background:   hsl(105, 21%, 93%)
+  text:         hsl(220, 9%, 19%)
+  highlights:   hsl(9, 96%, 44%)
+*/
+
+/* font */
 body .shower,
 body section,
 body .caption h1,
 body .slide h2
 {
-  font-family: "Doves Type", Georgia, serif;
+  font-family: var(--font);
   font-weight: normal;
 }
 
-/* override bg */
+/* bg */
 .slide {
-  background: #eaf0e8;
-  color: #2b2e34;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* ribbon */
+body .slide::after {
+  display: none;
+}
+
+/* accent */
+.slide a {
+  color: var(--accent);
 }
