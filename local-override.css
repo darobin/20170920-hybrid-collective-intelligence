@@ -1,0 +1,41 @@
+#cover img,
+#network img {
+  left: auto;
+  right: -32%;
+}
+#cover h2 {
+  margin: 0 -10px 0 -72px;
+  padding-bottom: 20px;
+  font-size: 5rem;
+  color: var(--accent);
+  width: 40%;
+  text-align: right;
+  border-bottom: 10px solid var(--lighter);
+}
+#cover p {
+  margin: -10px 0 0 -72px;
+  width: 40%;
+  text-align: right;
+}
+#cover p a {
+  text-decoration: none;
+  background: none;
+  color: var(--fg);
+  font-size: 3rem;
+}
+#cover figcaption {
+  right: -4px;
+}
+#cover figcaption a {
+  text-decoration: none;
+  background: none;
+}
+#network h2 {
+  margin: 0 -10px 0 -72px;
+  padding-bottom: 20px;
+  /*font-size: 5rem;*/
+  /*color: var(--accent);*/
+  width: 40%;
+  text-align: right;
+  /*border-bottom: 10px solid var(--lighter);*/
+}
