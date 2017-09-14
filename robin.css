@@ -74,5 +74,10 @@ body .slide::after {
 /* misc */
 cite {
   background: linear-gradient(to top, var(--bg) 5px, var(--accent) 5px, var(--accent) 7px, var(--bg) 7px);
-  text-shadow: 1px 1px 0 var(--bg), -1px 1px 0 var(--bg);
+  text-shadow: 1px 1px 0 var(--bg), -2px 1px 0 var(--bg);
+}
+u {
+  background: linear-gradient(to top, var(--bg) 5px, var(--lighter) 5px, var(--lighter) 7px, var(--bg) 7px);
+  text-shadow: 1px 1px 0 var(--bg), -2px 1px 0 var(--bg);
+  text-decoration: none;
 }
