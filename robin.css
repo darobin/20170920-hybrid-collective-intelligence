@@ -71,6 +71,25 @@ body .slide::after {
   border-right-color: transparent;
 }
 
+/* blockquote */
+blockquote {
+  padding-left: 20px;
+}
+.slide blockquote::before {
+  margin: -.4em 0 0 -.5em;
+  color: var(--lighter);
+  content: '«';
+  opacity: .5;
+}
+blockquote + figcaption {
+  font-weight: normal;
+  margin: auto;
+  text-align: right;
+}
+.slide blockquote li {
+  text-indent: inherit;
+}
+
 /* misc */
 cite {
   background: linear-gradient(to top, var(--bg) 5px, var(--accent) 5px, var(--accent) 7px, var(--bg) 7px);
