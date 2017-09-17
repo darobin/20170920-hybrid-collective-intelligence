@@ -39,3 +39,15 @@
   text-align: right;
   /*border-bottom: 10px solid var(--lighter);*/
 }
+#crap .shout {
+  font-size: 100px;
+}
+#crap p:first-of-type {
+  top: 40%;
+  color: var(--lighter);
+}
+#crap p:not(:first-of-type) {
+  top: 60%;
+  color: var(--accent);
+  font-style: italic;
+}
