@@ -68,6 +68,8 @@
   border: 1px solid var(--fg);
   padding: 10px 20px;
   height: 400px;
+  margin: auto;
+  overflow: hidden;
 }
 .document * {
   font-family: "Time New Roman", serif;
