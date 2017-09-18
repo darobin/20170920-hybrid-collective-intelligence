@@ -188,4 +188,9 @@ The preferred temporal direction can disappear when looking at issues at the qua
   * Is is conceivable that there is no time at the quantum level (or at least no oriented time?),
     but time emerges classically (though entanglement)?
   * => quantumcomplexity.org
-  
+
+
+### Modeling Open and Closed Cyber-Physical Systems with Graph Automata and Boolean Network Automata (Predrag Tosic)
+
+This looked interesting, but I was tired. Would be interesting to try to see stuff from author.
+Could be some interesting optimisations for BN agents.
