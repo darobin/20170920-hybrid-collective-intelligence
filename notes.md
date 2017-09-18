@@ -90,3 +90,41 @@ Based on the weights and barcodes, you get a homological scaffold.
 The brain, from a homological point of view, ages like a drying sponge.
 
 Functional preservation through topological presentation. (hypothesis)
+
+### The Evolution of Complexity seen as a problem of Search: Can we predict a priori which search algorithm will work best on which problem? (Christopher Stephens)
+
+No Free Lunch Theorem: no search algorithm will be better for all problems.
+
+Are there features that can help us find the best?
+
+I don't understand: if there are aspects that can help us pick an algorithm that's optimal (without
+running it), then can we not construct an algorithm of algorithms that picks the best one upfront?
+
+Trying search algorithms against random UCI problems.
+
+Why does Naïve Bayes work so well?
+Can we quantify strong correlations, and turn that into a decision about which algorithm to use?
+Errors that correspond to strong correlations, over the whole space, cannot all have the same size
+and therefore cancel. This makes NBA work. This is like "linkage" in population genetics (can
+identify epistasis, indirections between genes).
+
+This is "meta-prediction". Using NBA, the whole variation of complexity in a real world problem can
+be boiled down to a single number.
+
+  * => Check out the paper because I'm puzzled. This feeds into Hoel's blog post, and Dedeo's
+    reaction. It might be worth digging to figure out if there's something to do there.
+
+The evolution of everything in the Universe seen as a search process using building blocks.
+  * => This is interesting, it has levels.
+  * Building blocks because watchmaker parable from Herbert Simon
+  * Nucleosynthesis is basically just like that. There are different ways of doing it, but the real
+    one is superior.
+  * => Paper: "Building Blocks and Search" Lozano, Mireles… [!!!]
+  * Is it possible that this provides some potential grounds for the laws of physics being
+    evolutionary? Since the better nucleosynthesis is likely to win out by producing more stuff
+    (this only works if it replicates itself in doing that somehow). Entanglement of processes?
+    Nuclei are processes, can they entangle in the sense that they propagate the
+  * "You can think of sex as a certain type of search algorithm."
+  * Sex (recombination) works better in landscapes with strong epistasis (does this solve the
+    complexity catastrophe?).
+  * "Epistasis is symbiosis." (see mitochondria)
