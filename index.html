@@ -56,6 +56,11 @@
       neotenic properties
     -->
 
+
+
+
+    <!-- === I. WHAT ====================== -->
+
     <section class="slide" id="what">
       <h2>What is the Web?</h2>
       <figure>
@@ -99,6 +104,9 @@
       </figure>
     </section>
 
+
+    <!-- === II. LINKING ====================== -->
+
     <section class="slide" id="linking">
       <h2>Linking</h2>
       <figure>
@@ -108,6 +116,53 @@
         </figcaption>
       </figure>
     </section>
+
+    <section class="slide">
+      <p class="shout">URL</p>
+    </section>
+
+    <section class="slide">
+      <h2>Unified Identity &amp; Location</h2>
+      <p>
+        A resource’s name is effectively its address in the network.
+      </p>
+      <ul class="next">
+        <li>Delegated authority</li>
+        <li>URL structure and semantics can be locally meaningful</li>
+        <li>Opaque by design, but can be made usable to humans</li>
+      </ul>
+      <p class="next note">
+        Computers are OK with <code>urn:13FFBE4C-261E-4716-922A-33DFC3592138</code>; people will
+        interact better with <code>https://berjon.com/the-confusion/</code>.
+      </p>
+    </section>
+
+    <section class="slide">
+      <h2>Follow Your Nose</h2>
+      <pre>
+        <code><mark>https://berjon.com/about/#robin</mark></code>
+        <code>    @type <mark>http://schema.org/Person</mark></code>
+        <code>    <mark>http://schema.org/givenName</mark> = "Robin"</code>
+        <code>    <mark>http://schema.org/familyName</mark> = "Berjon"</code>
+        <code>    <mark>http://schema.org/url</mark> = <mark>https://berjon.com/</mark></code>
+        <code>    <mark>http://schema.org/birthDate</mark>:</code>
+        <code>        @type   <mark>http://www.w3.org/2001/XMLSchema#date</mark></code>
+        <code>        @value  "1977-03-15"</code>
+      </pre>
+    </section>
+    <!-- hypermedia APIs -->
+
+    <section class="slide">
+      <h2>Arbitrary Network</h2>
+      <ul>
+        <li>Reflects human usage</li>
+        <li>Preferential attachment is <em>not</em> intrinsic to the Web</li>
+        <li>Implicit structure that can be analysed</li>
+        <li>No root, arbitrary traversal</li>
+      </ul>
+    </section>
+
+
 
 
     <section class="slide">
