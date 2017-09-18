@@ -62,3 +62,11 @@
   left: auto;
   right: -20%;
 }
+
+.document {
+  width: 740px;
+  border: 1px solid var(--fg);
+  font-family: "Times New Roman", serif;
+  padding: 10px 20px;
+  height: 400px;
+}
