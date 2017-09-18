@@ -128,3 +128,64 @@ The evolution of everything in the Universe seen as a search process using build
   * Sex (recombination) works better in landscapes with strong epistasis (does this solve the
     complexity catastrophe?).
   * "Epistasis is symbiosis." (see mitochondria)
+
+
+### Complexity Science in a Quantum World (Mile Gu)
+### Causal Asymmetry Quantum World (Mile Gu)
+
+Causal Modelling. Without understanding ever possible past is a potential cause of future events.
+With better understanding we can consider only the past that is useful.
+
+Find a systematic method to configure a system such that it can predict future states accurately,
+with minimal entropy.
+
+If two past events have similar features, we can group different pasts in a single state. We can
+then just store the subset of the past that the states belong to. Epsilon machine.
+
+The memory required is given by the entropy of internal states, which is typically less than the
+original process.
+
+  * => Crutchfield proved that Epsilon-machines are the simplest *classical* models (check paper).
+  * Computational Mechanics (still going!)
+  * People found however that such machines were still wasteful
+  * => "Quantum mechanics can reduce the complexity of classical models" Mile Gu
+
+We have a box with a single coin. When shake, there is probability Q that it flips. Markovian
+process. Two causal states, for each state of the coin. We need 1 bit from the past.
+But if we shake harder, at some point it becomes random.
+
+The quantum machine improves this. At each step we decide to write something down or not in the
+classical case. In Q, we can do both at the same time. A classical bit is any physical variable with
+two states. Entropy zero.
+
+Classical can only move between |0> and |1> on a probability line, but that's unhelpful. In qubits
+we can store further information in the amplitudes. (see pictures) We can store with less entropy.
+Can use a quantum circuit. The machine does not know what state it outputs, but when the output is
+measured the machine collapses to the output.
+
+  * => "Experimentally modelling stochastic processes with less memory by the use of a quantum processor" (Palsson, Gu, Ho…)
+    - Very interesting
+    - Does this decrease Kolmogorov complexity in random, or various other cases?
+
+Can a preferred arrow of time emerge from considering observational data?
+One direction can lead to a much simpler model than the reverse.
+Example of a model that is perfectly reversible: just as simple to model both ways. No arrow.
+But with a simple modification that introduces asymmetry in the model (the algorithm produces data
+that is easy to predict in one direction but not the other). Time emerges?
+Predictive vs retrodictive complexity in quantum models. In quantum models, we can pull off the same
+type of compression trick as above.
+This can lead to cases in which the optimal classical view is asymmetric, but the optimal quantum
+view is symmetric.
+Can prove a theorem that regardless of the magnitude of the causal asymmetry, the quantum model is
+better (in memory terms) that its classical counterpart — even if the latter can run in both
+direction.
+This leads to divergence in which the classical model may be
+
+Most stochastic processes look simpler when modelled quantum-mechanically.
+The preferred temporal direction can disappear when looking at issues at the quantum level.
+
+  * => "Time's Barbed Arrow", Crutchfield
+  * Is is conceivable that there is no time at the quantum level (or at least no oriented time?),
+    but time emerges classically (though entanglement)?
+  * => quantumcomplexity.org
+  

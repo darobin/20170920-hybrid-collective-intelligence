@@ -25,7 +25,7 @@ LUNCH
 11:00   Cozumel 3   Grand Societal Challenges
 11:30   Cozumel 5   Higher Order Structure Distorts Local Information in Networks
 11:45   Xcaret 1    Hidalgo
-12:15   Gran Cancun Wolpert
+12:15   Gran Cancun Wolpert (if this is the quantum thing)
 12:30   Xcaret 1    Wolpert
 LUNCH+POSTERS
 14:20   Gran Cancun Hidalgo
