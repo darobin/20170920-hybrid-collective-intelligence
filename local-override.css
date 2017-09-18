@@ -1,5 +1,5 @@
 #cover img,
-#network img {
+#linking img {
   left: auto;
   right: -32%;
 }
@@ -30,15 +30,6 @@
   text-decoration: none;
   background: none;
 }
-#network h2 {
-  margin: 0 -10px 0 -72px;
-  padding-bottom: 20px;
-  /*font-size: 5rem;*/
-  /*color: var(--accent);*/
-  width: 40%;
-  text-align: right;
-  /*border-bottom: 10px solid var(--lighter);*/
-}
 #crap .shout {
   font-size: 100px;
 }
@@ -66,4 +57,8 @@
 #thanks a {
   background: none;
   text-shadow: none;
+}
+#what img {
+  left: auto;
+  right: -20%;
 }
