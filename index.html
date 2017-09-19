@@ -421,7 +421,7 @@
       <h2 style="font-size: 90px; margin-top: -100px; margin-left: 70px;">Collective Robustness</h2>
       <figure>
         <img class="cover" src="pictures/elephant.jpg" alt="Elephant engraving">
-        <figcaption class="white">
+        <figcaption style="right: -2px; bottom: 20px;"
           <a href="http://metmuseum.org/art/collection/search/352393?sortBy=Relevance&amp;ao=on&amp;ft=elephant&amp;offset=0&amp;rpp=100&amp;pos=93">A Young Elephant / The Met</a>
         </figcaption>
       </figure>
@@ -440,6 +440,13 @@
         </figcaption>
       </figure>
     </section>
+    <!--
+      Seems to make sense: if you output always well within in the bounds but accept something a
+      bit broader to account for bugs, you should get robust interoperability.
+      Postel was working in the context of TCP, small number of implementations by highly qualified
+      people following the standard; essentially this is machine-to-machine
+      With humans…
+    -->
 
     <section class="slide">
       <h2>Implementation Drift in a Postel World</h2>
@@ -448,7 +455,7 @@
       </p>
       <ol class="next">
         <li>Authors check content against browser (not tech spec)</li>
-        <li>Dominant browser has bug</li>
+        <li>Dominant browser has bug (or is just being liberal)</li>
         <li>Content relies on bug</li>
         <li>Competing browsers have to emulate bug to be usable</li>
         <li>Go to 1</li>
@@ -457,6 +464,7 @@
         Web technology started to change on its own as a collective phenomenon.
       </p>
     </section>
+    <!-- This is bad: traditionally, engineering is about _preventing_ emergence -->
 
     <section class="slide">
       <h2>Issues</h2>
