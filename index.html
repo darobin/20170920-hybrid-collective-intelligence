@@ -61,6 +61,18 @@
       some things didn't take
       neotenic properties
     -->
+    <!--
+      - collective: there is the part about multitudes, this is mentioned here but make it more
+        explicit. This ties into notions of scale.
+      - hybrid: explain how things work for both.
+      - intelligence: that is outside the scope — I expect the intelligence is in the user agents.
+      - read the Adhesion page again for hints of orientation
+
+      Questions
+        - Why is it robust?
+        - How do we reach agreement?
+        - How is it upgraded?
+    -->
 
 
 
@@ -143,6 +155,8 @@
         interact better with <code>https://berjon.com/the-confusion/</code>.
       </p>
     </section>
+
+    <!-- ### 25% ### -->
 
     <section class="slide">
       <h2>Follow Your Nose</h2>
@@ -244,6 +258,8 @@
     <section class="slide">
       <h2>But: Humans (blind)</h2>
     </section>
+
+    <!-- ### 50% ### -->
 
     <section class="slide">
       <h2>HTML: Mobile</h2>
@@ -366,6 +382,8 @@
       </pre>
     </section>
 
+    <!-- ### 75% ### -->
+
     <section class="slide">
       <h2>Tree Decoration</h2>
       <ul>
@@ -400,7 +418,7 @@
     <!-- === IV. ROBUSTNESS ====================== -->
 
     <section class="slide">
-      <h2 style="font-size: 100px; margin-top: -100px; margin-left: 70px;">Robustness</h2>
+      <h2 style="font-size: 90px; margin-top: -100px; margin-left: 70px;">Collective Robustness</h2>
       <figure>
         <img class="cover" src="pictures/elephant.jpg" alt="Elephant engraving">
         <figcaption class="white">
@@ -425,30 +443,37 @@
 
     <section class="slide">
       <h2>Implementation Drift in a Postel World</h2>
-      <ol>
+      <p class="note">
+        Humans are not conservative (at scale).
+      </p>
+      <ol class="next">
         <li>Authors check content against browser (not tech spec)</li>
         <li>Dominant browser has bug</li>
         <li>Content relies on bug</li>
         <li>Competing browsers have to emulate bug to be usable</li>
         <li>Go to 1</li>
       </ol>
+      <p class="note next">
+        Web technology started to change on its own as a collective phenomenon.
+      </p>
     </section>
 
     <section class="slide">
-      <h2>Don’t Fight The Mess</h2>
+      <h2>Issues</h2>
       <ul>
         <li>People are lazy, computers are buggy</li>
         <li>Policing and decentralisation do not coexist at scale</li>
         <li>Content outlives software (by a <em>lot</em>)</li>
+        <li>At any serious scale, you cannot go offline for upgrades</li>
       </ul>
     </section>
 
     <section class="slide">
-      <h2>The Best Effort Baseline</h2>
+      <h2>Assume Errors</h2>
       <ul>
-        <li>Design with the expectation of failure</li>
-        <li>404</li>
-        <li>Humans and machines understand the same error</li>
+        <li>Early hypertext systems tried to prevent errors</li>
+        <li>Best effort scales better, but implies embracing errors</li>
+        <li>Errors should be exceptional (404) and undefined behaviour obliterated</li>
       </ul>
     </section>
 
@@ -463,80 +488,15 @@
     </section>
 
 
-    <!--
-
-    The robustness of the Web and its versatility in adapting to all types of agents defies what
-    common engineering wisdom would expect. Give the example of parsing the HTTP line.
-
-    Focus more on hybrid collective intelligence
-      - collective: there is the part about multitudes, this is mentioned here but make it more
-        explicit. This ties into notions of scale.
-      - hybrid: explain how things work for both.
-      - intelligence: that is outside the scope — I expect the intelligence is in the user agents.
-      - read the Adhesion page again for hints of orientation
-
-    Linking
-      Arbitrary network
-      Implicit structure, organic growth (by behaviour, almost stigmergic)
-      Decorated arcs (nofollow) (?)
-      URLs for everything (identity and location)
-        - for humans, https://myblog.com/about/picture works better than urn:DEADBEEF
-      (Decentralisation)
-      Discoverability
-      Best effort
-      Follow your nose
-      (Hypermedia APIs: move later?)
-
-
-    Building a Hybrid
-      1. URLs and Linking Documents in the Information Space
-      2. Document Semantics
-         1. Accessibility
-         2. Styling
-         3. Internationalisation
-         4. Repurposability
-      3. Web of Data
-         1. Doing it Wrong
-            1. Increasing the precision of an ontology increases errors in using it
-            2. RDF
-         2. Doing it Right
-            1. Fuzzy ontologies (schema.org, toilets!)
-            2. JSON-LD
-            3. APIs for all: follow your nose, hyper*
-
-
-      Design for errors
-        - HTML parsing (universal syntax)
-        - people are lazy, computers are buggy
-      Postel's Law:
-        - "Be conservative in what you send, be liberal in what you accept."
-        - liberal is one thing, predictable is even better
-        - this leads straight to HTML parsing and best effort?
-      AWWW (https://www.w3.org/TR/webarch/):
-        - "Global naming leads to global network effects."
-        - "Cool URIs don't change."
-      Ideas from XMLBP:
-        - versioning from the start
-        - make things human-readable, they'll want to read
-      Questions
-        - Why is it robust?
-        - How do we reach agreement?
-        - How is it upgraded?
-    -->
-
-    <!--
-      bug for bug compatibility
-      "nevertheless it persists"
-    -->
-
     <section class="slide">
-      <h2>Reach out!</h2>
-      <ul>
-        <li>Web people have not been great at documenting our findings</li>
-        <li>But we have experience with hybrid ecosystems at scale</li>
-        <li>Just ask, most of us don’t bite too much</li>
-      </ul>
+      <p class="shout">There is more…</p>
     </section>
+    <!--
+      Web people have not been great at documenting our findings
+      But we have experience with hybrid ecosystems at scale
+      Just ask, most of us don’t bite too much
+      Reach out!
+    -->
 
     <section class="slide" id="thanks">
       <h2>Thank you!</h2>

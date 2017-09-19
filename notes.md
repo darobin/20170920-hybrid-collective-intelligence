@@ -221,3 +221,14 @@ directly (and conversely).
 Can we derive large organisation ossification? Is it optimal?
 
 Does this modelling expect a hierarchical structure?
+
+
+### Flack
+
+Can subjectivity be overcome?
+Are informational macroscopic properties similar to energetic macroscopic properties?
+Titrating?
+Information processing scaling superlinearly, energetic constrained systems scaling sublinearly.
+
+
+### Data Protection Law and Data Controllers' Behaviors in Digital Trade: An Analysis Based on a Standing-Ovation Model
