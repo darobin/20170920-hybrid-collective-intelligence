@@ -91,3 +91,50 @@
 .document q {
   font-style: italic;
 }
+.document.style01 {
+  background: linear-gradient(to bottom, var(--fg), var(--bg));
+}
+.document.style01 * {
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+}
+.style01 h1 {
+  color: #ff0;
+  text-decoration: underline;
+}
+.style01 [role=contentinfo] {
+  font-size: 0.8em;
+  color: red;
+}
+/*
+  #f5e1f0
+  Comic Sans
+  bright pink
+  text-shadow
+  unicorn
+  animation
+*/
+.document.style02 {
+  background: #f5e1f0;
+}
+.document.style02 * {
+  font-family: "Comic Sans MS", fantasy;
+  font-size: 0.9em;
+  color: #ff007e;
+  font-size: 0.8em;
+}
+.style02 h1::after {
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  content: " ";
+  margin: -50px 0 0 50px;
+  background: url("pictures/nyan.gif");
+  background-size: contain;
+}
+@keyframes spin { 100% { transform:rotate(360deg); } }
+.style02 [role=contentinfo] {
+  font-size: 0.8em;
+  animation:spin 4s linear infinite;
+}

@@ -194,3 +194,13 @@ The preferred temporal direction can disappear when looking at issues at the qua
 
 This looked interesting, but I was tired. Would be interesting to try to see stuff from author.
 Could be some interesting optimisations for BN agents.
+
+### Collective behaviors at three scales: nanoscale oscillators, interdependent infrastructure, and macaque societies (Raissa D'Souza)
+
+  * => Physic Review Letters, Noel, D'Souza, 2013 (control of network systems)
+
+### Laws of Forgetting
+
+How fast do people forget things? Data on music, movies, athletes.
+Love is short, forgetting is long.
+Interesting model that explains cultural forgetting.
