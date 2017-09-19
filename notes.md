@@ -204,3 +204,20 @@ Could be some interesting optimisations for BN agents.
 How fast do people forget things? Data on music, movies, athletes.
 Love is short, forgetting is long.
 Interesting model that explains cultural forgetting.
+
+### Optimal Social Organisations and Limits on Human Information-Processing (Wolpert)
+
+Ties to Coases, Dunbar number.
+Group selection hypothesis: real organisations survive when they have close to optimal structure.
+At some group size, even if as boss you could compute all that needs to be done, you couldn't speak
+fast enough to communicate it. You need reports for indirection.
+Network coding literature. Arrow. Gaussian channel literature.
+Nobody has tried to quantify this before. That's the project.
+Model as communication network, as DAG.
+
+When listening to others' messages is too noisy, agents will optimally go listen to the environment
+directly (and conversely).
+
+Can we derive large organisation ossification? Is it optimal?
+
+Does this modelling expect a hierarchical structure?

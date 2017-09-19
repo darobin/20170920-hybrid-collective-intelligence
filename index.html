@@ -14,6 +14,12 @@
       <p>Robin Berjon</p>
     </header>
 
+
+    <!--
+      XXX
+      - list 25% points = 5 minute checkpoints
+    -->
+
     <section class="slide" id="cover">
       <h2>25 Years of Hybrid Collective Intelligence</h2>
       <p><a href="https://berjon.com/">Robin Berjon</a></p>
@@ -319,6 +325,141 @@
           As Sarah C., a regular, downs her <em>Souther Comfort</em>, she barely pauses in…
         </p>
       </div>
+    </section>
+
+    <section class="slide">
+      <h2>Fundamental Separation</h2>
+      <ul>
+        <li>Separate: content, presentation, behaviour</li>
+        <li>The backbone is the raw semantics</li>
+        <li>Styling is an <em>indirection</em> to semantics, but a poor one</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Target <em>All</em> Humans</h2>
+      <ul>
+        <li>Modality-independence helps software agents</li>
+        <li>In turn, this helps the full variety of humans using those agents</li>
+        <li>Not just accessibility: internationalisation, Unicode</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Principle of Least Power</h2>
+      <ul>
+        <li>HTML is dumb: that’s <em>good</em></li>
+        <li>«Powerful languages inhibit information reuse.» (<a href="https://www.w3.org/2001/tag/doc/leastPower.html">TAG Finding</a>)</li>
+        <li>Use the least powerful language that will adequately capture your semantics</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Tree Decoration</h2>
+      <pre>
+        <code>&lt;div role="contentinfo" <mark>property="schema:author"</mark></code>
+        <code>        <mark>typeof="schema:Person"</mark>></code>
+        <code>  &lt;span <mark>property="schema:givenName"</mark>>Karen&lt;/span></code>
+        <code>  &lt;span <mark>property="schema:familyName"</mark>>Page,</code>
+        <code>  &lt;span <mark>property="schema:worksFor"</mark>>New York Bulletin</code>
+        <code>&lt;/div></code>
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Tree Decoration</h2>
+      <ul>
+        <li>HTML trees can be arbitrarily enriched</li>
+        <li>Open-ended ontologies</li>
+        <li>Single-source of truth: don’t duplicate content</li>
+        <li>Specifically designed for simultaneous human/machine consumption</li>
+        <li>What You See Is What It Means</li>
+        <li>«Web-First Data Citations»<br>
+          <a href="https://research.science.ai/web-first-data-citations">https://research.science.ai/web-first-data-citations</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Fuzzier is Less Noisy</h2>
+      <ul>
+        <li>Cater to your primary data <em>producers</em>, not consumers</li>
+        <li>
+          Increasing ontological precision beyond beyond the training of data producers (humans)
+          just leads to noise
+        </li>
+        <li>Massive success, very loose: <a href="http://schema.org/">schema.org</a></li>
+        <li>Decentralised capture (eg. <code>schema:PublicToilet</code>)</li>
+      </ul>
+    </section>
+
+
+
+
+
+    <!-- === IV. ROBUSTNESS ====================== -->
+
+    <section class="slide">
+      <h2 style="font-size: 100px; margin-top: -100px; margin-left: 70px;">Robustness</h2>
+      <figure>
+        <img class="cover" src="pictures/elephant.jpg" alt="Elephant engraving">
+        <figcaption class="white">
+          <a href="http://metmuseum.org/art/collection/search/352393?sortBy=Relevance&amp;ao=on&amp;ft=elephant&amp;offset=0&amp;rpp=100&amp;pos=93">A Young Elephant / The Met</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Postel’s Law</h2>
+      <figure>
+        <blockquote>
+          <p>
+            Be conservative in what you send, be liberal in what you accept.
+          </p>
+        </blockquote>
+        <figcaption>
+          —Jon Postel, Transmission Control Protocol (TCP), RFC 761.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Implementation Drift in a Postel World</h2>
+      <ol>
+        <li>Authors check content against browser (not tech spec)</li>
+        <li>Dominant browser has bug</li>
+        <li>Content relies on bug</li>
+        <li>Competing browsers have to emulate bug to be usable</li>
+        <li>Go to 1</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Don’t Fight The Mess</h2>
+      <ul>
+        <li>People are lazy, computers are buggy</li>
+        <li>Policing and decentralisation do not coexist at scale</li>
+        <li>Content outlives software (by a <em>lot</em>)</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>The Best Effort Baseline</h2>
+      <ul>
+        <li>Design with the expectation of failure</li>
+        <li>404</li>
+        <li>Humans and machines understand the same error</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Predictability</h2>
+      <ul>
+        <li>No behaviour should be undefined in a format</li>
+        <li>Every input maps to an output</li>
+        <li>Paired with testing, this leaves nowhere to drift</li>
+        <li>HTML: pretty much any junk will produce a tree</li>
+      </ul>
     </section>
 
 

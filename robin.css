@@ -100,6 +100,6 @@ u {
   text-shadow: 1px 1px 0 var(--bg), -2px 1px 0 var(--bg);
   text-decoration: none;
 }
-p code {
+p code, li code {
   font-size: 0.7em;
 }
